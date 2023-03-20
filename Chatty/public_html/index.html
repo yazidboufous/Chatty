@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="code.js"></script>
+    <title>Chatty</title>
+</head>
+<body>
+
+
+    <div id="chat">  
+
+        <script>
+            setInterval(getchat,1000);
+        </script>
+
+    </div>
+
+    <div id="info">
+
+        <div>
+            <label for="Alias" > Alias</label>
+            <input id="Alias" type="text"></input>
+        </div>
+
+        <div>
+            <label for="Message" > Message</label>
+            <input id="Message" type="text"></input>
+        </div>
+        
+        <div>
+            <button id="send" onclick="send()">Send Message</button>
+        </div>
+
+    </div>
+
+
+    
+</body>
+</html>

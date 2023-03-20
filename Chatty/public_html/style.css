@@ -1,0 +1,58 @@
+body{
+    margin:0;
+    box-sizing: border-box;
+    height:100vh;
+    /* display:flex;
+    flex-direction:column;
+    justify-content:space-evenly; */
+}
+
+
+#chat{
+    height:70%;
+    background-color: #FC766AFF;
+    position: relative;
+    overflow: auto;
+}
+
+#info{
+    height:30%;
+    background-color: rgb(48, 109, 174);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 50px;
+    font-size: 20px;
+    font-family:Impact;
+    letter-spacing: 1px;
+}
+
+#send{
+    font-size: 17px;
+    font-family:Impact;
+    padding:5px;
+}
+
+input{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 10px;
+
+}
+
+
+.newdiv{
+    padding:10px 30px;
+    font-size: 23px;
+}
+
+.name{
+    font-family:Impact;
+    font-size:20px;
+}
+
+.message{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left: 2px;
+    font-size:20px;
+
+}
